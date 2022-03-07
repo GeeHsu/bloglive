@@ -11,14 +11,20 @@
     :root {
       --bs-font-sans-serif: system-ui,-apple-system,'Microsoft JhengHei',微軟正黑體,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     }
+    .bg-cover {
+      background-position: center center;
+      background-size: cover;
+    }
   </style>
 </head>
 <body>
+
   <div class="container">
     <header class="py-3 text-center border-bottom">
       <a href="#" class="h2 link-dark text-decoration-none">Gee Hsu 的 Blog</a>
     </header>
 
+    <!-- Blog 版型 - 導覽列 start -->
     <div class="overflow-auto py-1">
       <nav class="nav justify-content-between flex-nowrap text-nowrap">
         <a href="#" class="nav-link link-secondary">HTML</a>
@@ -35,6 +41,19 @@
         <a href="#" class="nav-link link-secondary">VSCode</a>
       </nav>
     </div>
+
+    <!-- Blog 版型 - 導覽列 end -->
+
+    <!-- Blog 版型 - 首圖背景 start -->
+    <div class="p-4 p-md-5 text-white rounded-3 bg-cover" style="background-image: url(https://images.unsplash.com/photo-1545641203-7d072a14e3b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80);">
+      <div class="col-md-6">
+        <h1 class="display-4 fst-italic">雨水經由高山地形匯流成溪河</h1>
+        <p class="lead my-3">一個河流需要時間的積累才能形成，知識的累積也是從少到多。</p>
+        <p class="lead mb-0"><a class="text-white" href="#">繼續閱讀</a></p>
+      </div>
+    </div>
+    <!-- Blog 版型 - 首圖背景 end -->
+
   </div>
 
 </body>
